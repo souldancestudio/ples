@@ -1,0 +1,272 @@
+body{
+	background:#b3b3b3;
+	margin-left:60px;
+	margin-right:60px;
+	margin-bottom:30px;}
+
+div.logo{
+	background:white;
+	width:cover;
+	height:250px;}
+
+.veliko::first-letter {
+	font-size:200%;}
+
+a.pocetna{
+	text-decoration:inherit;
+	color:white;}
+
+a.pocetna:hover {
+	text-decoration:inherit;
+	color:black;
+	background:#48C9B0;}
+	
+p.pocetna{
+	font-size:20px;
+	text-align:center;
+	font-family:Verdana;
+	color: #48C9B0;
+	word-spacing:5px;
+	font-weight:bold;}
+	
+div.ikone {
+	background:#d5d5d5;
+	width:cover;
+	height:36px;}
+	
+i{
+	color:white;
+	text-indent:15px;}
+	
+p.raspored{
+	font-weight:bold;
+	font-family:Verdana;
+	font-size:20px;
+	color:#48C9B0;
+	text-decoration:underline;}
+	
+a.vrh{
+	text-decoration:inherit;
+	color:black;float:right;
+	text-indent:bold;}
+	
+a.vrh:hover {
+	text-decoration:inherit;
+	color:black;
+	background:white;}
+	
+div.dno{
+	width:cover;
+	height:23px;
+	background:#d5d5d5;
+	margin-top:230px;}
+	
+div.kontakt{
+	padding:20px;
+	color:black;
+	width:200px;
+	height:270px;
+	background:#d5d5d5;}
+	
+div.upis{
+	background:#F2F3F4;
+	width:500px;
+	height:500px;
+	padding:20px;
+	margin:50px;
+	border:1px solid black;}
+	
+input:hover[type=text]{
+	background:#48C9B0;
+	border:solid 2px white;}
+	
+input:hover[type=submit]{
+	background-color:white;
+	color:black;
+	font-weight:bold;
+	border:dotted 3px white;}
+	
+input[type=submit]{
+	background-color:#48C9B0;
+	display:block;}
+	
+textarea {
+	background-color:#48C9B0;
+	border:dashed white 3px;
+	display:block;}
+	
+form{
+	color:#48C9B0;
+	font-weight:bold;}
+	
+address{
+	float:right;
+	text-align:right;}
+	
+.nevazan{
+	color:black;
+	text-decoration:underline;}
+	
+.pozadina{
+	background-image:url(kids.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+	background-repeat:no repeat;}
+	
+.rezult{
+	width:500px;
+	height:1500px;
+	overflow:scroll;
+	background:#48C9B0;
+	margin:20px;
+	padding:15px;
+	border:1px solid black;}
+	
+.lokacija{
+	width:500px;
+	height:400px;
+	padding:20px;
+	margin:50px;
+	background:#48C9B0;
+	border:1px solid black;}
+	
+.right{
+	text-align:right;
+	margin-top:-75px;}
+	
+.left{
+	text-align:left;}
+	
+.parallax {
+	background-image: url("daningkids.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;}
+	
+.vesti{
+	width:300px;
+	height:800px;
+	overflow:scroll;
+	background:white;
+	margin:20px;
+	padding:15px;
+	margin-left:1070px;
+	margin-top:20px;}
+.button {
+	background-color:#D7BDE2;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	margin-top:800px;
+	float:left;
+	width:450px;
+	margin-left:10px;
+	border-radius:8px;}
+	
+.button:hover{
+	color:black;
+	background:white;}
+	
+.animacija{
+	width:1000px;
+	height:700px;
+	margin-top:-831px;
+	float:right;
+	margin-right:370px;
+	background:none;}
+	
+@keyframes kocka{
+	0%   {top:0px; left:0px;}
+	25%  {top:0px; left:750px;}
+	50%  {top:450px; left:750px;}
+	75%  {top:450px; left:0px;}
+	100% {top:0px; left:0px;}
+	}
+	
+img#anim{
+	border-radius:12%;
+	width:250px;
+	height:250px;
+	position:relative;
+	animation:kocka 3s;
+	-moz-animation:kocka 3s;
+	-webkit-animation:kocka 3s;}
+
+
+@keyframes krug{
+	0%   {bottom:0px; left:0px;}
+	25%  {bottom:450px; left:0px;}
+	50%  {bottom:450px; left:750px;}
+	75%  {bottom:0px; left:750px;}
+	100% {bottom:0px; left:0px;}
+	}
+	
+img#ani{
+	border-radius:12%;
+	width:250px;
+	height:250px;
+	margin-top:196px;
+	position:relative;
+	animation:krug 5s;
+	-moz-animation:krug 5s;
+	-webkit-animation:krug 5s;}
+
+
+@keyframes rotirana{
+	from {left:1000px;top:50px}
+	to {left:0px;top:0px}
+	}
+
+@-webkit-keyframes rotirana{
+	from {left:5%;top:25%}
+	to {left:0%;top:0%}
+	}
+	
+img#an{
+	border-radius:12%;
+	width:300px;
+	height:400px;
+	margin-left:400px;
+	transform:rotate(25deg);
+	margin-bottom:50px;
+	position:relative;
+	animation-name:rotirana;
+	animation-duration: 3s;
+	animation-delay: 5s;
+	animation-fill-mode:backwards;}
+
+div.pocetna{
+	background:none;
+	padding:15px;
+	margin:100px;
+	border:1px dashed black;}
+
+a.link{
+	background-color:black;
+	text-transform:uppercase;
+	text-decoration:none;}
+	
+a.link:visited{
+	color:purple;
+	background:none;
+	text-decoration:lowercase;}
+	
+a.link:hover{
+	color:#48C9B0;
+	text-decoration:none;
+	background:none;}
+	
+button{
+	background-color:purple;
+	color:white;
+	font-weight:bold;
+	border:solid 3px white;
+}

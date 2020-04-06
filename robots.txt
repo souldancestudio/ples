@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /temp/
+
+sitemap:https://plesniklubsouldance.000webhostapp.com/sitemap.xml
